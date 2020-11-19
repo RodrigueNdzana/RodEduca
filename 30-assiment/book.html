@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>RodEduca/book</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="javaScript/bookfile.js" async></script>
+</head>
+
+<body>
+  <!-- first nav -->
+  <div class="first_nav">
+    <div id="social_media">
+      <div class="containerfa">
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+        <i class="fa fa-google" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div class="help_email">
+      <a href="mailto:ndzanarodrigue6@gmail.com" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+        needhelp@gmail.com
+      </a>
+      <a href="#" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i>
+        084 058 5408
+      </a>
+    </div>
+    <div class="login_orregister">
+      <a href="loginPage.html" target="_blank"><i class="fa fa-user" aria-hidden="true"></i>
+        login
+      </a>
+      <a href="loginPage.html" target="_blank"><i class="fa fa-lock" aria-hidden="true"></i>
+        Register
+      </a>
+    </div>
+  </div>
+  <div class="mainnav_container" id="scroll">
+    <div class="heading">
+      <header>
+        <h1><i class="fa fa-book" aria-hidden="true"></i>
+          RodEduca
+        </h1>
+      </header>
+    </div>
+    <div class="second_nav">
+      <nav>
+        <ul>
+          <a href="index.html">
+            <li>Home</li>
+          </a>
+          <a href="about.html">
+            <li>About</li>
+          </a>
+          <a href="courses.html">
+            <li>Courses</li>
+          </a>
+          <a href="instructor.html">
+            <li>Instructors</li>
+          </a>
+          <a href="#">
+            <li>Books</li>
+          </a>
+          <a href="contact.html">
+            <li>Contact</li>
+          </a>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <!-- top button -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-level-up" aria-hidden="true"></i></button>
+
+  <!-- courses session of the webpage -->
+  <div class="pagetitle">
+    <header>
+      <h1> All Books</h1>
+    </header>
+
+  </div>
+
+  <!-- shopping cart -->
+  <section class="mainbook content-section">
+    <h2 class="section-header">Programming Book</h2>
+    <div class="shop-items">
+      <div class="shop-item">
+        <span class="shop-item-title">Python Programing Book</span>
+        <img class="shop-item-image" src="https://books.goalkicker.com/PythonBook/PythonGrow.png" alt="goalkicker">
+        <div class="shop-item-details">
+          <span class="shop-item-price">R 250.50</span>
+
+          <button class="btn btn-primary shop-item-button" type="button">Buy Now</button>
+        </div>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">C# Programing Book</span>
+        <img class="shop-item-image" src="https://goalkicker.com/CSharpBook/CSharpGrow.png" alt="goaolkicker">
+        <div class="shop-item-details">
+          <span class="shop-item-price">R300</span>
+
+          <button class="btn btn-primary shop-item-button" type="button">Buy Now</button>
+        </div>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">JavaScript Programing Book</span>
+        <img class="shop-item-image" src="https://goalkicker.com/JavaScriptBook/JavaScriptGrow.png" alt="goalkicker">
+        <div class="shop-item-details">
+          <span class="shop-item-price">R450.60</span>
+          <button class="btn btn-primary shop-item-button" type="button">Buy Now</button>
+        </div>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">C Programing Book</span>
+        <img class="shop-item-image" src="https://goalkicker.com/CBook/CGrow.png" alt="goalkicker">
+        <div class="shop-item-details">
+          <span class="shop-item-price">R 600.50</span>
+
+          <button class="btn btn-primary shop-item-button" type="button">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="mainbook content-section">
+    <h2 class="section-header">Web Designing note</h2>
+    <div class="shop-items">
+      <div class="shop-item">
+        <span class="shop-item-title">HTMl Web Designing book</span>
+        <img class="shop-item-image" src="https://goalkicker.com/HTML5Book/HTML5Grow.png" alt="goalkicker">
+        <div class="shop-item-details">
+          <span class="shop-item-price">R199.99</span>
+
+          <button class="btn btn-primary shop-item-button" type="button">Buy Now</button>
+        </div>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">CSS Web Designing Note</span>
+        <img class="shop-item-image" src="https://goalkicker.com/CSSBook/CSSGrow.png" alt="goalkicker">
+        <div class="shop-item-details">
+          <span class="shop-item-price">R350.50</span>
+
+          <button class="btn btn-primary shop-item-button" type="button">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="mainbook content-section">
+    <h2 class="section-header">Buying List/items</h2>
+    <div class="cart-row">
+      <span class="cart-item cart-header cart-column">List of Books</span>
+      <span class="cart-price cart-header cart-column">Price</span>
+      <span class="cart-quantity cart-header cart-column">Number of Books</span>
+    </div>
+    <div class="cart-items">
+    </div>
+    <div class="cart-total">
+      <strong class="cart-total-title">Total</strong>
+      <span class="cart-total-price">R0</span>
+    </div>
+    <button class="btn btn-primary btn-purchase" type="button">Pay Books</button>
+  </section>
+  <!-- footer session of the webpage -->
+  <footer class="footermaincontainer" id="contact">
+    <div class="socialmedia">
+      <div class="stayUpdate">
+        <header>
+          <h2>Stay update</h2>
+        </header>
+        <form action="#" method="POST">
+          <input type="email" placeholder="Enter your email" />
+          <button type="button">Subscribe now </button>
+        </form>
+      </div>
+      <div class="letUsSocial">
+        <header>
+          <h2>Let us get social</h2>
+        </header>
+        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-google" aria-hidden="true"></i></a>
+      </div>
+
+    </div>
+
+    <div class="secondfooter">
+      <div class="aboutusfooter">
+        <header>
+          <h3>About us</h3>
+        </header>
+        <nav>
+          <ul>
+            <a href="#">
+              <li>Online Learning</li>
+            </a>
+            <a href="#">
+              <li>About us</li>
+            </a>
+            <a href="#">
+              <li>Career</li>
+            </a>
+            <a href="#">
+              <li>Become an Instructors</li>
+            </a>
+            <a href="#">
+              <li>Online Learning</li>
+            </a>
+          </ul>
+        </nav>
+      </div>
+      <div class="studyusfooter">
+        <header>
+          <h3>Study</h3>
+        </header>
+        <nav>
+          <ul>
+            <a href="#">
+              <li>Admissions policy </li>
+            </a>
+            <a href="#">
+              <li>getting Started</li>
+            </a>
+            <a href="#">
+              <li>online project</li>
+            </a>
+            <a href="#">
+              <li>tuition project</li>
+            </a>
+            <a href="contact.html">
+              <li>contact us</li>
+            </a>
+          </ul>
+        </nav>
+      </div>
+      <div class="supportfooter">
+        <header>
+          <h3>Support</h3>
+        </header>
+        <nav>
+          <ul>
+            <a href="#">
+              <li>support</li>
+            </a>
+            <a href="contact.html">
+              <li>contact us</li>
+            </a>
+            <a href="#">
+              <li>system requirement</li>
+            </a>
+            <a href="#">
+              <li>term and conditon</li>
+            </a>
+            <a href="about.html">
+              <li>graduate feeback</li>
+            </a>
+          </ul>
+        </nav>
+      </div>
+      <div class="bookusfooter">
+        <header>
+          <h3>Books</h3>
+        </header>
+        <nav>
+          <ul>
+            <a href="#">
+              <li>HTML 5</li>
+            </a>
+            <a href="#">
+              <li>CSS</li>
+            </a>
+            <a href="#">
+              <li>JavaScript</li>
+            </a>
+            <a href="#">
+              <li>Java</li>
+            </a>
+            <a href="#">
+              <li>Other more</li>
+            </a>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <hr />
+    <p class="copyright">copyright &copy; 2020 All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="#">Rodrigue Ndzana</a></p>
+    <script src="javaScript/iterative.js"></script>
+  </footer>
+
+  <script type="text/javaScript" src="javaScript/iterative.js"></script>
+  <script src="javaScript/topButton.js"></script>
+</body>
+
+</html>

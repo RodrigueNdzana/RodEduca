@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>RodEduca/instructor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!--External plugins or search function-->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> <!--External boostrap plugin for font awesome to be display-->
+</head>
+
+<body>
+  <!-- first nav -->
+  <div class="first_nav">
+
+    <div id="social_media">
+      <div class="containerfa">
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+        <i class="fa fa-google" aria-hidden="true"></i>
+      </div>
+    </div>
+
+    <div class="help_email">
+      <a href="mailto:ndzanarodrigue6@gmail.com" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+        needhelp@gmail.com
+      </a>
+      <a href="#" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i>
+        084 058 5408
+      </a>
+    </div>
+
+    <div class="login_orregister">
+      <a href="loginPage.html" target="_blank"><i class="fa fa-user" aria-hidden="true"></i>
+        login
+      </a>
+      <a href="loginPage.html" target="_blank"><i class="fa fa-lock" aria-hidden="true"></i>
+        Register
+      </a>
+    </div>
+
+  </div>
+
+  <!-- secondnav -->
+  <div class="mainnav_container" id="scroll">
+
+    <div class="heading">
+      <header>
+        <h1><i class="fa fa-book" aria-hidden="true"></i>
+          RodEduca
+        </h1>
+      </header>
+    </div>
+
+    <div class="second_nav">
+      <nav>
+        <ul>
+          <a href="index.html">
+            <li>Home</li>
+          </a>
+          <a href="about.html">
+            <li>About</li>
+          </a>
+          <a href="courses.html">
+            <li>Courses</li>
+          </a>
+          <a href="#">
+            <li>Instructors</li>
+          </a>
+          <a href="book.html">
+            <li>Books</li>
+          </a>
+          <a href="contact.html">
+            <li>Contact</li>
+          </a>
+        </ul>
+      </nav>
+    </div>
+
+  </div>
+
+  <!-- top button -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <i class="fa fa-level-up" aria-hidden="true"></i>
+  </button>
+  <script src="javaScript/topButton.js"></script>  <!--javaScript file for top button-->
+
+  <div class="pagetitle">
+    <header>
+      <h1> Instructors</h1>
+    </header>
+  </div>
+
+  <!-- search bar session -->
+  <div class="searchdiv">
+    <input type="text" onkeypress="search_course()" id="searchbar" class="input" placeholder="search Instructors using their name or faculty" />
+    <div class="searchbtn">
+      <i class="fa fa-search" aria-hidden="true"></i>
+    </div>
+  </div>
+
+  <!-- Externalfaulty page -->
+  <div id="search">
+    <div class="facultysessionex">
+      <div>
+        <picture>
+          <img src="images/team2.jpg" alt="team2" />
+
+        </picture>
+        <nav>
+          <ul>
+            <a href="#">
+              <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+            </a>
+            <a href="#">
+              <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+            </a>
+            <a href="#">
+              <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+            </a>
+          </ul>
+        </nav>
+
+        <h2>Mohammed Martin</h2>
+        <p>Faculty: CEO</p>
+      </div>
+      <div>
+        <picture>
+          <img src="images/team3.jpg" alt="team3" />
+        </picture>
+        <nav>
+          <ul>
+            <a href="#">
+              <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+            </a>
+            <a href="#">
+              <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+            </a>
+            <a href="#">
+              <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+            </a>
+
+          </ul>
+
+        </nav>
+        <h2>George Jason</h2>
+        <p>Faculty: Director</p>
+      </div>
+      <div>
+        <picture>
+          <img src="images/team4.jpg" alt="team4" />
+        </picture>
+        <nav>
+          <ul>
+            <a href="#">
+              <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+            </a>
+            <a href="#">
+              <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+            </a>
+            <a href="#">
+              <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+            </a>
+          </ul>
+        </nav>
+
+        <h2>Romeo Martino</h2>
+        <p>Faculty: Content Writing</p>
+      </div>
+      <div>
+        <picture>
+          <img src="images/team5.jpg" alt="team5" />
+        </picture>
+        <nav>
+          <ul>
+            <a href="#">
+              <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+            </a>
+            <a href="#">
+              <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+            </a>
+            <a href="#">
+              <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+            </a>
+          </ul>
+        </nav>
+
+        <h2>Adeline Jack</h2>
+        <p>Faculty: Web Designing</p>
+      </div>
+    </div>
+    <div class="facultysessionex">
+      <div>
+        <picture>
+          <img src="images/team6.jpg" alt="team6" />
+        </picture>
+        <nav>
+          <ul>
+            <a href="#">
+              <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+            </a>
+            <a href="#">
+              <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+            </a>
+            <a href="#">
+              <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+            </a>
+          </ul>
+        </nav>
+
+        <h2>claire siera</h2>
+        <p>Faculty: Business Studies</p>
+      </div>
+      <div>
+        <picture>
+          <img src="images/team7.jpg" alt="team7" />
+        </picture>
+        <nav>
+          <ul>
+            <a href="#">
+              <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+            </a>
+            <a href="#">
+              <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+            </a>
+            <a href="#">
+              <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+            </a>
+          </ul>
+        </nav>
+
+        <h2>veronica bienca</h2>
+        <p>Faculty: Video Editing</p>
+      </div>
+      <div>
+        <picture>
+          <img src="images/team8.jpg" alt="team8" />
+        </picture>
+        <nav>
+          <ul>
+            <a href="#">
+              <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+            </a>
+            <a href="#">
+              <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+            </a>
+            <a href="#">
+              <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+            </a>
+          </ul>
+        </nav>
+
+        <h2>angeline nounte</h2>
+        <p>Faculty: Programming</p>
+      </div>
+      <div>
+        <picture>
+          <img src="images/team9.jpg" alt="team9" />
+        </picture>
+        <nav>
+          <ul>
+            <a href="#">
+              <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+            </a>
+            <a href="#">
+              <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+            </a>
+            <a href="#">
+              <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+            </a>
+          </ul>
+        </nav>
+
+        <h2>merlin angel</h2>
+        <p>Faculty: App Development</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- filter user -->
+
+  <div class="mainUserContainer">
+    <div class="header">
+      <div class="title">
+        searching for existing users
+      </div>
+
+      <div class="search_box">
+        <input type="text" id="search_input" placeholder="Search user according to name">
+      </div>
+    </div>
+
+    <div class="table_container">
+      <div class="table_header">
+        <ul>
+          <li>
+            <div class="information">
+              <div class="name">
+                <span>NAME</span>
+              </div>
+              <div class="phone">
+                <span>PHONE</span>
+              </div>
+              <div class="occupation">
+                <span>Occupation</span>
+              </div>
+              <div class="country">
+                <span>Country</span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="table_body">
+        <ul>
+          <li>
+            <div class="information">
+              <div class="name">
+                <span>Racquel Richard</span>
+              </div>
+              <div class="phone">
+                <span>+1 112 678 9876</span>
+              </div>
+              <div class="occupation">
+                <span>Event Coordinator</span>
+              </div>
+              <div class="country">
+                <span class="brazil">Brazil</span>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="information">
+              <div class="name">
+                <span>Khalied Mohammed</span>
+              </div>
+              <div class="phone">
+                <span>+22 234 367 948</span>
+              </div>
+              <div class="occupation">
+                <span>Sales Rep</span>
+              </div>
+              <div class="country">
+                <span class="saudiArabia">Saudi Arabia</span>
+              </div>
+            </div>
+          </li>
+          
+          <li>
+            <div class="information">
+              <div class="name">
+                <span>Pietro Jamie</span>
+              </div>
+              <div class="phone">
+                <span>+236 789 036 900</span>
+              </div>
+              <div class="occupation">
+                <span>Student</span>
+              </div>
+              <div class="country">
+                <span class="italy">Italy</span>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="information">
+              <div class="name">
+                <span>Alena Florescence</span>
+              </div>
+              <div class="phone">
+                <span>+27 84 456 0987</span>
+              </div>
+              <div class="occupation">
+                <span>Lecturer</span>
+              </div>
+              <div class="country">
+                <span class="southAfica">South Afica</span>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="information">
+              <div class="name">
+                <span>Bruce lee</span>
+              </div>
+              <div class="phone">
+                <span>+27 74 567 9032</span>
+              </div>
+              <div class="occupation">
+                <span>Programmed</span>
+              </div>
+              <div class="country">
+                <span class="southAfica">South Africa</span>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="information">
+              <div class="name">
+                <span>Max Goldman</span>
+              </div>
+              <div class="phone">
+                <span>+233 334 444 455</span>
+              </div>
+              <div class="occupation">
+                <span>Web Designer</span>
+              </div>
+              <div class="country">
+                <span class="italy">Italy</span>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="information">
+              <div class="name">
+                <span>Maria Loire</span>
+              </div>
+              <div class="phone">
+                <span>+27 67 222 0333</span>
+              </div>
+              <div class="occupation">
+                <span>Fashion Designer</span>
+              </div>
+              <div class="country">
+                <span class="southAfica">South Africa</span>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="information">
+              <div class="name">
+                <span>Matthews Victor</span>
+              </div>
+              <div class="phone">
+                <span>+235 785 223 9903</span>
+              </div>
+              <div class="occupation">
+                <span>Event Organiser</span>
+              </div>
+              <div class="country">
+                <span class="england">England</span>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="information">
+              <div class="name">
+                <span>Gail Fishoek</span>
+              </div>
+              <div class="phone">
+                <span>+234 467 478 488</span>
+              </div>
+              <div class="occupation">
+                <span>Dancer</span>
+              </div>
+              <div class="country">
+                <span class="usa">USA</span>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="information">
+              <div class="name">
+                <span>John Mark</span>
+              </div>
+              <div class="phone">
+                <span>+27 66 789 0436</span>
+              </div>
+              <div class="occupation">
+                <span>Student</span>
+              </div>
+              <div class="country">
+                <span class="southAfica">South Africa</span>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="information">
+              <div class="name">
+                <span>Jame Micheal</span>
+              </div>
+              <div class="phone">
+                <span>+27 6573 8933</span>
+              </div>
+              <div class="occupation">
+                <span>Developer</span>
+              </div>
+              <div class="country">
+                <span class="southAfica">South Africa</span>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="information">
+              <div class="name">
+                <span>Jake Lehmann</span>
+              </div>
+              <div class="phone">
+                <span>+234 849 9493 933</span>
+              </div>
+              <div class="occupation">
+                <span>Designer</span>
+              </div>
+              <div class="country">
+                <span class="italy">Italy</span>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="information">
+              <div class="name">
+                <span>Lionel Sierra</span>
+              </div>
+              <div class="phone">
+                <span>+234 2490 2932</span>
+              </div>
+              <div class="occupation">
+                <span>App Designer</span>
+              </div>
+              <div class="country">
+                <span class="usa">USA</span>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="information">
+              <div class="name">
+                <span>Jacobs Salaad</span>
+              </div>
+              <div class="phone">
+                <span>+243 890 9859</span>
+              </div>
+              <div class="occupation">
+                <span>App Designer</span>
+              </div>
+              <div class="country">
+                <span class="saudiArabia">Saudi Arabic</span>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="information">
+              <div class="name">
+                <span>Richard Moreo</span>
+              </div>
+              <div class="phone">
+                <span>+234 7854 903</span>
+              </div>
+              <div class="occupation">
+                <span>Designer</span>
+              </div>
+              <div class="country">
+                <span class="italy">Italy</span>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="information">
+              <div class="name">
+                <span>Jennifer Lopez</span>
+              </div>
+              <div class="phone">
+                <span>+233 895 90 094</span>
+              </div>
+              <div class="occupation">
+                <span>Singer</span>
+              </div>
+              <div class="country">
+                <span class="usa">USA</span>
+              </div>
+            </div>
+          </li>
+          
+          <li>
+            <div class="information">
+              <div class="name">
+                <span>George Junoir</span>
+              </div>
+              <div class="phone">
+                <span>+237 345 867 3452</span>
+              </div>
+              <div class="occupation">
+                <span>Designer</span>
+              </div>
+              <div class="country">
+                <span class="usa">USA</span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- footer session of the webpage -->
+    <footer class="footermaincontainer" id="contact">
+      <div class="socialmedia">
+        <div class="stayUpdate">
+          <header>
+            <h2>Stay update</h2>
+          </header>
+          <form action="#" method="POST">
+            <input type="email" placeholder="Enter your email" />
+            <button type="button">Subscribe now </button>
+          </form>
+        </div>
+        <div class="letUsSocial">
+          <header>
+            <h2>Let us get social</h2>
+          </header>
+          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-google" aria-hidden="true"></i></a>
+        </div>
+
+      </div>
+      <div class="secondfooter">
+        <div class="aboutusfooter">
+          <header>
+            <h3>About us</h3>
+          </header>
+          <nav>
+            <ul>
+              <a href="#">
+                <li>Online Learning</li>
+              </a>
+              <a href="#">
+                <li>About us</li>
+              </a>
+              <a href="#">
+                <li>Career</li>
+              </a>
+              <a href="#">
+                <li>Become an Instructors</li>
+              </a>
+              <a href="#">
+                <li>Online Learning</li>
+              </a>
+            </ul>
+          </nav>
+        </div>
+        <div class="studyusfooter">
+          <header>
+            <h3>Study</h3>
+          </header>
+          <nav>
+            <ul>
+              <a href="#">
+                <li>Admissions policy </li>
+              </a>
+              <a href="#">
+                <li>getting Started</li>
+              </a>
+              <a href="#">
+                <li>online project</li>
+              </a>
+              <a href="#">
+                <li>tuition project</li>
+              </a>
+              <a href="contact.html">
+                <li>contact us</li>
+              </a>
+            </ul>
+          </nav>
+        </div>
+        <div class="supportfooter">
+          <header>
+            <h3>Support</h3>
+          </header>
+          <nav>
+            <ul>
+              <a href="#">
+                <li>support</li>
+              </a>
+              <a href="contact.html">
+                <li>contact us</li>
+              </a>
+              <a href="#">
+                <li>system requirement</li>
+              </a>
+              <a href="#">
+                <li>term and conditon</li>
+              </a>
+              <a href="about.html">
+                <li>graduate feeback</li>
+              </a>
+            </ul>
+          </nav>
+        </div>
+        <div class="bookusfooter">
+          <header>
+            <h3>Books</h3>
+          </header>
+          <nav>
+            <ul>
+              <a href="#">
+                <li>HTML 5</li>
+              </a>
+              <a href="#">
+                <li>CSS</li>
+              </a>
+              <a href="#">
+                <li>JavaScript</li>
+              </a>
+              <a href="#">
+                <li>Java</li>
+              </a>
+              <a href="#">
+                <li>Other more</li>
+              </a>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <hr />
+      <p class="copyright">copyright &copy; 2020 All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="#">Rodrigue Ndzana</a></p>
+
+    </footer>
+  </div>
+  <script src="javaScript/iterative.js"></script>
+  <script src="javaScript/courseSearchbar.js"></script> <!-- Search bar functionality js external file-->
+</body>
+
+</html>

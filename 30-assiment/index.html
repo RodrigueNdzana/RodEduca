@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>RodEduca/homepage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" /> <!--CSS File of the page-->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> <!--External boostrap plugin for font awesome to be display-->
+  <script src="javaScript/home.js" async></script> <!--javaScript for the book info calculation-->
+</head>
+
+<body>
+
+  <!-- first nav -->
+  <div class="first_nav" id="home">
+    <div id="social_media">
+
+      <div class="containerfa">
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+        <i class="fa fa-google" aria-hidden="true"></i>
+      </div>
+    </div>
+
+    <div class="help_email">
+      <a href="mailto:ndzanarodrigue6@gmail.com" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+        needhelp@gmail.com
+      </a>
+      <a href="#" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i>
+        084 058 5408
+      </a>
+    </div>
+
+    <div class="login_orregister">
+      <a href="loginPage.html" target="_blank"><i class="fa fa-user" aria-hidden="true"></i>
+        login
+      </a>
+      <a href="loginPage.html" target="_blank"><i class="fa fa-lock" aria-hidden="true"></i>
+        Register
+      </a>
+    </div>
+
+  </div>
+
+  <!-- secondnav -->
+  <div class="mainnav_container" id="scroll">
+
+    <div class="heading">
+      <header>
+        <h1><i class="fa fa-book" aria-hidden="true"></i>
+          RodEduca
+        </h1>
+      </header>
+    </div>
+
+    <div class="second_nav">
+      <nav>
+        <ul>
+          <a href="#home">
+            <li>Home</li>
+          </a>
+          <a href="#aboutus">
+            <li>About</li>
+          </a>
+          <a href="#courses">
+            <li>Courses</li>
+          </a>
+          <a href="#instructor">
+            <li>Instructors</li>
+          </a>
+          <a href="#books">
+            <li>Books</li>
+          </a>
+          <a href="#contact">
+            <li>Contact</li>
+          </a>
+        </ul>
+      </nav>
+    </div>
+
+  </div>
+
+  <!-- top button -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <i class="fa fa-level-up" aria-hidden="true"></i>
+  </button>
+  <script src="javaScript/topButton.js"></script> <!--script for the top button-->
+
+  <div class="popular_course">
+    <img src="images/bachgroung1.jpg" alt="bachgroung1" />
+    <div class="popular_courseintro">
+      <p>Popular Online Courses</p>
+      <header>
+        <h1>The new way to learn properly is with us!</h1>
+      </header>
+      <a href="contact.html"><button class="getstarted" type="button"> Get Started</button></a>
+    </div>
+  </div>
+
+  <!-- courses session html container -->
+  <div class="browse_course">
+    <p id="courses">Popular Course Online</p>
+    <header>
+      <h1>Lets Brows All Catagories</h1>
+    </header>
+  </div>
+
+  <div class="firstcourse_container">  <!--first div session info-->
+
+    <div class="webDesign">
+      <i class="fa fa-laptop" aria-hidden="true"></i>
+      <header>
+        <h2>Web design</h2>
+      </header>
+      <p>This course will allow you to build responsive web design using HTML5, CSS, JavaScript, jQeury, React.js and note.js</p>
+      <br />
+      <br />
+      <p> Read more at course</p>
+    </div>
+
+    <div class="appDevelopment">
+      <i class="fa fa-mobile" aria-hidden="true"></i>
+      <h2>App Development</h2>
+      <p>This course will allow you to build application that will be running in the mobile device, using programming language such as C#, Python and Java</p>
+      <br />
+      <br />
+      <p> Read more at course</p>
+    </div>
+
+    <div class="videoEditing">
+      <i class="fa fa-video-camera" aria-hidden="true"></i>
+      <h2>Video Editing</h2>
+      <p>After this course you will be able to know how to design the layout of the web page using in Adobe photosop CS6</p>
+      <br />
+      <br />
+      <p> Read more at course</p>
+    </div>
+
+  </div>
+
+  <div class="secondcourse_container"> <!--second div session info-->
+    <div class="businessPractice">
+      <i class="fa fa-product-hunt" aria-hidden="true"></i>
+      <h2>Business Studies</h2>
+      <p>This course will allow you to gain entrepreneur skills and leaderstyle. At the end of this course you will learn how to open your own business</p>
+      <br />
+      <br />
+      <p> Read more at course</p>
+    </div>
+
+    <div class="contentwriting">
+      <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+      <h2>Content writing</h2>
+      <p>This course will allow you to build application that will be running in the mobile device, using programming language such as C#, Python and Java</p>
+      <br />
+      <br />
+      <p> Read more at course</p>
+    </div>
+
+    <div class="communication">
+      <i class="fa fa-comment" aria-hidden="true"></i>
+      <h2>communication</h2>
+      <p>After this course you will be able to know how to design the layout of the web page using in Adobe photosop CS6</p>
+      <br />
+      <br />
+      <p> Read more at course</p>
+    </div>
+
+  </div>
+
+  <div class="viewcourse"> <!--find more course button container-->
+    <a href="courses.html"><button class="getstarted" type="button"> Find More Courses</button></a>
+  </div>
+
+  <div class="numberTopic">   <!--Number of topic writting and comment the page have -->
+    
+    <div class="topic" style="color:#2d3092">
+      <i class="fa fa-laptop" aria-hidden="true"></i>
+      <h1>2100 topic</h1>
+    </div>
+
+    <div class="topic" style="color:green">
+      <i class="fa fa-book" aria-hidden="true"></i>
+      <h1 class="counter">1400 topic</h1>
+    </div>
+
+    <div class="topic" style="color:purple">
+      <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+      <h1 class="counter">1900 topic</h1>
+    </div>
+    
+    <div class="topic" style="color:orange">
+      <i class="fa fa-comment" aria-hidden="true"></i>
+      <h1 class="counter">1800 topic</h1>
+    </div>
+
+  </div>
+
+  <div class="browse_course wanted"> <!--popular courses that are mostly selected by user-->
+    <p>Most Popular Course Of This Week</p>
+    <h1>Our Popular Course</h1>
+  </div>
+
+  <div class="mostwantedcourse">
+
+    <div class="webDevelopment"> <!--web development-->
+      <img src="images/webdevelopment.jpg" alt="webDevelopment" />
+      <h2>Web Development</h2>
+      <div class="star">  <!--font awesome stars-->
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <div>
+          <p>4000 Review</p> <!--number of users that view the course-->
+        </div> 
+      </div>
+      <hr />
+      <div class="star user">
+        <i class="fa fa-user" aria-hidden="true"></i> <span>3547</span> <!--number of user that take the course-->
+        <i class="fa fa-heart-o" aria-hidden="true"></i><span>8999</span> <!--number of user that lovethe course-->
+        <span>Free</span>
+      </div>
+    </div>
+
+    <div class="graphicdesigner"> <!--graphic designer-->
+      <img src="images/graphicdesigner.jpg" alt="digitalDesigner" />
+      <h2>Graphic Designer</h2>
+      <div class="star">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <div>
+          <p>5000 Review</p>
+        </div>
+      </div>
+      <hr />
+      <div class="star user">
+        <i class="fa fa-user" aria-hidden="true"></i> <span>3547</span>
+        <i class="fa fa-heart-o" aria-hidden="true"></i><span>8999</span>
+        <span>Free</span>
+      </div>
+    </div>
+
+    <div class="businessstudie">
+      <img src="images/businessstudies.jpg" alt="businessstudies" />
+      <h2>Business Studies</h2>
+      <div class="star">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <div>
+          <p>9000 Review</p>
+        </div>
+      </div>
+      <hr />
+      <div class="star user">
+        <i class="fa fa-user" aria-hidden="true"></i> <span>3547</span>
+        <i class="fa fa-heart-o" aria-hidden="true"></i><span>8999</span>
+        <span>Free</span>
+      </div>
+    </div>
+    
+  </div>
+  <div class="viewwantedcoures">
+    <a href="courses.html"><button class="getstarted" type="button"> Find More Courses</button></a>
+  </div>
+
+  <!-- intrustors session page-->
+  <section class="faculty" id="instructor">
+    <p class="describle">Click the button for more</p>
+    <h1 class="describleheading">Our best teacher</h1>
+    <main class="mainfacultycontained">
+      <div class="team">
+        <picture>
+          <img src="images/team1.jpeg" alt="team1" />
+        </picture>
+        <h2>Andrew Philist</h2>
+        <p>Faculty: Web development</p>
+      </div>
+      <div class="team">
+        <picture>
+          <img src="images/team2.jpg" alt="team2" />
+        </picture>
+        <h2>Mohammed Martin</h2>
+        <p>Faculty: CEO</p>
+      </div>
+      <div class="team">
+        <picture>
+          <img src="images/team3.jpg" alt="team3" />
+        </picture>
+        <h2>George Jason</h2>
+        <p>Faculty: Director</p>
+      </div>
+      <div class="team">
+        <picture>
+          <img src="images/team4.jpg" alt="team4" />
+        </picture>
+        <h2>Romeo Martino</h2>
+        <p>Faculty: Content Writing</p>
+      </div>
+    </main>
+    <div class="viewfaculty">
+      <a href="instructor.html"><button class="getstarted facultybutton" type="button"> View all Faculty</button></a>
+    </div>
+  </section>
+
+  <!-- About internal page  -->
+  <div class="internalaboutpage" id="aboutus">
+    <div class="description">
+      <p>More about our company</p>
+      <h1>Want to know more</h1>
+      <p class="aboutdescribe">The name of the website explains our philosophy of teaching Programming. We chose “Programming” because we wanted to emphasize the importance of each individual student</p>
+      <i class="fa fa-lightbulb-o" aria-hidden="true"></i> <span>Creative Ideas base</span>
+      <br />
+      <br />
+      <i class="fa fa-user-o" aria-hidden="true"></i><span>User</span>
+      <br />
+      <br />
+      <i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Graduate</span>
+      <br />
+      <br />
+      <i class="fa fa-list-alt" aria-hidden="true"></i><span>Class Resume</span>
+      <div class="about">
+        <a href="about.html"><button class="getstarted buttonabout" type="button"> More about us</button></a>
+      </div>
+    </div>
+    <div class="aboutimage">
+      <div class="image2">
+        <picture>
+          <img src="images/aboutimage.jpg" alt="aboutimage" />
+        </picture>
+
+      </div>
+      <div>
+        <picture>
+          <img id="aboutimage1" src="images/aboutimage1.jpg" alt="aboutimage1" />
+        </picture>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- book internal page -->
+  <header>
+    <h1 class="bookheading"> All Book</h1>
+  </header>
+  <div class="bookinternalpage">
+    <div class="book">
+      <picture>
+        <img src="https://books.goalkicker.com/PythonBook/PythonGrow.png" alt="goalkicker" />
+      </picture>
+      <span>Price: </span>
+      <span id="firstPrice">250.50</span>
+      <!--gave id--->
+      <input type="number" name="QuantityNum" id="valuequantityNum" />
+      <p>Total : <span id="currentPrice">R0 </span> </p>
+      <button onclick="myquantfunc()">Total</button>
+    </div>
+
+    <div class="book" id="books">
+      <picture>
+        <img src="https://goalkicker.com/CSharpBook/CSharpGrow.png" alt="goaolkicker" />
+      </picture>
+      <span>Price: </span>
+      <span id="firstPricetwo">300</span>
+      <input type="number" name="QuantityNum" id="valuequantityNumtwo" />
+      <p>Total : <span id="currentPricetwo">R0 </span> </p>
+      <button onclick="myquantfuncbook2()">Total</button>
+    </div>
+
+    <div class="book">
+      <picture>
+        <img src="https://goalkicker.com/HTML5Book/HTML5Grow.png" alt="goalkicker" />
+      </picture>
+      <span>Price: </span>
+      <span id="firstPricethree">199.99</span>
+      <input type="number" name="QuantityNum" id="valuequantityNumthree" />
+      <p>Total : <span id="currentPricethree">R0 </span> </p>
+      <button onclick="myquantfuncbook3()">Total</button>
+    </div>
+    <script>
+
+    </script>
+    <div class="book">
+      <picture>
+        <img src="https://goalkicker.com/CBook/CGrow.png" alt="goalkicker" />
+      </picture>
+      <span>Price: </span>
+      <span id="firstPricefour">600.50</span>
+      <input type="number" name="QuantityNum" id="valuequantityNumfour" />
+      <p>Total : <span id="currentPricefour">R0 </span> </p>
+      <button onclick="myquantfuncbook4()">Total</button>
+    </div>
+    <script>
+
+    </script>
+  </div>
+  <div class="bookbutton">
+    <a href="book.html"><button class="getstarted buttonabout" type="button"> View And Purchase more book</button></a>
+  </div>
+
+  <!-- footer session of the webpage -->
+  <footer class="footermaincontainer" id="contact">
+    <div class="socialmedia">
+      <div class="stayUpdate">
+        <header>
+          <h2>Stay update</h2>
+        </header>
+        <form action="#" method="POST">
+          <input type="email" placeholder="Enter your email" />
+          <button type="button">Subscribe now </button>
+        </form>
+      </div>
+      <div class="letUsSocial">
+        <header>
+          <h2>Let us get social</h2>
+        </header>
+        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-google" aria-hidden="true"></i></a>
+      </div>
+
+    </div>
+
+    <div class="secondfooter">
+      <div class="aboutusfooter">
+        <header>
+          <h3>About us</h3>
+        </header>
+        <nav>
+          <ul>
+            <a href="#">
+              <li>Online Learning</li>
+            </a>
+            <a href="#">
+              <li>About us</li>
+            </a>
+            <a href="#">
+              <li>Career</li>
+            </a>
+            <a href="#">
+              <li>Become an Instructors</li>
+            </a>
+            <a href="#">
+              <li>Online Learning</li>
+            </a>
+          </ul>
+        </nav>
+      </div>
+      <div class="studyusfooter">
+        <header>
+          <h3>Study</h3>
+        </header>
+        <nav>
+          <ul>
+            <a href="#">
+              <li>Admissions policy </li>
+            </a>
+            <a href="#">
+              <li>getting Started</li>
+            </a>
+            <a href="#">
+              <li>online project</li>
+            </a>
+            <a href="#">
+              <li>tuition project</li>
+            </a>
+            <a href="contact.html">
+              <li>contact us</li>
+            </a>
+          </ul>
+        </nav>
+      </div>
+      <div class="supportfooter">
+        <header>
+          <h3>Support</h3>
+        </header>
+        <nav>
+          <ul>
+            <a href="#">
+              <li>support</li>
+            </a>
+            <a href="contact.html">
+              <li>contact us</li>
+            </a>
+            <a href="#">
+              <li>system requirement</li>
+            </a>
+            <a href="#">
+              <li>term and conditon</li>
+            </a>
+            <a href="about.html">
+              <li>graduate feeback</li>
+            </a>
+          </ul>
+        </nav>
+      </div>
+      <div class="bookusfooter">
+        <header>
+          <h3>Books</h3>
+        </header>
+        <nav>
+          <ul>
+            <a href="#">
+              <li>HTML 5</li>
+            </a>
+            <a href="#">
+              <li>CSS</li>
+            </a>
+            <a href="#">
+              <li>JavaScript</li>
+            </a>
+            <a href="#">
+              <li>Java</li>
+            </a>
+            <a href="#">
+              <li>Other more</li>
+            </a>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <hr />
+    <p class="copyright">copyright &copy; 2020 All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="#">Rodrigue Ndzana</a></p>
+
+  </footer>
+  <script src="javaScript/iterative.js"></script> <!-- javaScript sticky nav that that will be display when the user scroll down -->
+</body>
+
+</html>

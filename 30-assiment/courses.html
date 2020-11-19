@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>RodEduca/Courses</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!--External plugins or search function-->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- first nav -->
+  <div class="first_nav">
+    <div id="social_media">
+      <div class="containerfa">
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+        <i class="fa fa-google" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div class="help_email">
+      <a href="mailto:ndzanarodrigue6@gmail.com" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+        needhelp@gmail.com
+      </a>
+      <a href="#" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i>
+        084 058 5408
+      </a>
+    </div>
+    <div class="login_orregister">
+      <a href="loginPage.html" target="_blank"><i class="fa fa-user" aria-hidden="true"></i>
+        login
+      </a>
+      <a href="loginPage.html" target="_blank"><i class="fa fa-lock" aria-hidden="true"></i>
+        Register
+      </a>
+    </div>
+  </div>
+
+  <!-- secondnav -->
+  <div class="mainnav_container" id="scroll">
+    <div class="heading">
+      <header>
+        <h1><i class="fa fa-book" aria-hidden="true"></i>
+          RodEduca
+        </h1>
+      </header>
+    </div>
+    <div class="second_nav">
+      <nav>
+        <ul>
+          <a href="index.html">
+            <li>Home</li>
+          </a>
+          <a href="about.html">
+            <li>About</li>
+          </a>
+          <a href="#">
+            <li>Courses</li>
+          </a>
+          <a href="instructor.html">
+            <li>Instructors</li>
+          </a>
+          <a href="book.html">
+            <li>Books</li>
+          </a>
+          <a href="contact.html">
+            <li>Contact</li>
+          </a>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <!-- top button -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <i class="fa fa-level-up" aria-hidden="true"></i>
+  </button>
+  <script src="javaScript/topButton.js"></script>
+
+  <!-- courses session of the webpage -->
+  <div class="pagetitle">
+    <header>
+      <h1> All Courses</h1>
+    </header>
+
+  </div>
+  <!-- search bar session -->
+  <div class="searchdiv">
+    <input type="text" onkeypress="search_course()" id="searchbar" class="input" placeholder="search courses" />
+    <div class="searchbtn">
+      <i class="fa fa-search" aria-hidden="true"></i>
+    </div>
+  </div>
+  
+  <!-- first course line container -->
+  <div class="firstcourse_container" id="search">
+    <div class="webDesign">
+      <i class="fa fa-laptop" aria-hidden="true"></i>
+      <h2>Web design</h2>
+      <p>This course will allow you to build responsive web design using HTML5, CSS, JavaScript, jQeury, React.js and note.js</p>
+      <br />
+      <br />
+      <button type="button" class="enroll" onclick="alertenroll()">enroll now</button>
+    </div>
+
+    <div class="appDevelopment">
+      <i class="fa fa-mobile" aria-hidden="true"></i>
+      <h2>App Development</h2>
+      <p>This course will allow you to build application that will be running in the mobile device, using programming language such as C#, Python and Java</p>
+      <br />
+      <br />
+      <button type="button" class="enroll" onclick="alertenroll()">enroll now</button>
+    </div>
+    <div class="videoEditing">
+      <i class="fa fa-video-camera" aria-hidden="true"></i>
+      <h2>Video Editing</h2>
+      <p>After this course you will be able to know how to design the layout of the web page using in Adobe photosop CS6</p>
+      <br />
+      <br />
+      <button type="button" class="enroll" onclick="alertenroll()">enroll now</button>
+    </div>
+  </div>
+
+  <div class="secondcourse_container" id="search">
+    <div class="businessPractice">
+      <i class="fa fa-product-hunt" aria-hidden="true"></i>
+      <h2>Business Studies</h2>
+      <p>This course will allow you to gain entrepreneur skills and leaderstyle. At the end of this course you will learn how to open your own business</p>
+      <br />
+      <br />
+      <button type="button" class="enroll" onclick="alertenroll()">enroll now</button>
+    </div>
+    <div class="contentwriting">
+      <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+      <h2>Content writing</h2>
+      <p>This course will allow you to build application that will be running in the mobile device, using programming language such as C#, Python and Java</p>
+      <br />
+      <br />
+      <button type="button" class="enroll" onclick="alertenroll()">enroll now</button>
+    </div>
+    <div class="communication">
+      <i class="fa fa-comment" aria-hidden="true"></i>
+      <h2>communication</h2>
+      <p>After this course you will be able to know how to design the layout of the web page using in Adobe photosop CS6</p>
+      <br />
+      <br />
+      <button type="button" class="enroll" onclick="alertenroll()">enroll now</button>
+    </div>
+  </div>
+
+  <div class="numberTopic">
+    <div class="topic" style="color:#2d3092">
+      <i class="fa fa-laptop" aria-hidden="true"></i>
+      <h1>2100 topic</h1>
+    </div>
+    <div class="topic" style="color:green">
+      <i class="fa fa-book" aria-hidden="true"></i>
+      <h1>1400 topic</h1>
+    </div>
+    <div class="topic" style="color:purple">
+      <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+      <h1>1900 topic</h1>
+    </div>
+    <div class="topic" style="color:orange">
+      <i class="fa fa-comment" aria-hidden="true"></i>
+      <h1>1800 topic</h1>
+    </div>
+  </div>
+  <div class="browse_course wanted">
+    <p>Most Popular Course Of This Week</p>
+    <h1>Our Popular Course</h1>
+  </div>
+  <div class="mostwantedcourse">
+    <div class="webDevelopment">
+      <img src="images/webdevelopment.jpg" alt="webDevelopment" />
+      <h2>Web Development</h2>
+
+      <div class="star">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <div>
+          <p>4000 Review</p>
+        </div>
+      </div>
+      <hr />
+      <div class="star user">
+        <i class="fa fa-user" aria-hidden="true"></i> <span>3547</span>
+        <i class="fa fa-heart-o" aria-hidden="true"></i><span>8999</span>
+        <span>Free</span>
+      </div>
+    </div>
+    <div class="graphicdesigner">
+      <img src="images/graphicdesigner.jpg" alt="digitalDesigner" />
+      <h2>Graphic Designer</h2>
+
+      <div class="star">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <div>
+          <p>5000 Review</p>
+        </div>
+      </div>
+      <hr />
+      <div class="star user">
+        <i class="fa fa-user" aria-hidden="true"></i> <span>3547</span>
+        <i class="fa fa-heart-o" aria-hidden="true"></i><span>8999</span>
+        <span>Free</span>
+      </div>
+    </div>
+    <div class="businessstudie" class="course">
+      <img src="images/businessstudies.jpg" alt="businessstudies" />
+      <h2>Business Studies</h2>
+
+      <div class="star">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <div>
+          <p>9000 Review</p>
+        </div>
+      </div>
+      <hr />
+      <div class="star user">
+        <i class="fa fa-user" aria-hidden="true"></i> <span>3547</span>
+        <i class="fa fa-heart-o" aria-hidden="true"></i><span>8999</span>
+        <span>Free</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer session of the webpage -->
+  <footer class="footermaincontainer">
+    <div class="socialmedia">
+      <div class="stayUpdate">
+        <header>
+          <h2>Stay update</h2>
+        </header>
+        <form action="#" method="POST">
+          <input type="email" placeholder="Enter your email" />
+          <button type="button">Subscribe now </button>
+        </form>
+      </div>
+      <div class="letUsSocial">
+        <header>
+          <h2>Let us get social</h2>
+        </header>
+        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-google" aria-hidden="true"></i></a>
+      </div>
+
+    </div>
+    <div class="secondfooter">
+      <div class="aboutusfooter">
+        <header>
+          <h3>About us</h3>
+        </header>
+        <nav>
+          <ul>
+            <a href="#">
+              <li>Online Learning</li>
+            </a>
+            <a href="about.html">
+              <li>About us</li>
+            </a>
+            <a href="#">
+              <li>Career</li>
+            </a>
+            <a href="contact.html">
+              <li>Become an Instructors</li>
+            </a>
+            <a href="courses.html">
+              <li>Online Learning</li>
+            </a>
+          </ul>
+        </nav>
+      </div>
+      <div class="studyusfooter">
+        <header>
+          <h3>Study</h3>
+        </header>
+        <nav>
+          <ul>
+            <a href="#">
+              <li>Admissions policy </li>
+            </a>
+            <a href="#">
+              <li>getting Started</li>
+            </a>
+            <a href="#">
+              <li>online project</li>
+            </a>
+            <a href="#">
+              <li>tuition project</li>
+            </a>
+            <a href="#">
+              <li>contact us</li>
+            </a>
+          </ul>
+        </nav>
+      </div>
+      <div class="supportfooter">
+        <header>
+          <h3>Support</h3>
+        </header>
+        <nav>
+          <ul>
+            <a href="#">
+              <li>support</li>
+            </a>
+            <a href="contact.html">
+              <li>contact us</li>
+            </a>
+            <a href="#">
+              <li>system requirement</li>
+            </a>
+            <a href="#">
+              <li>term and conditon</li>
+            </a>
+            <a href="about.html">
+              <li>graduate feeback</li>
+            </a>
+          </ul>
+        </nav>
+      </div>
+      <div class="bookusfooter">
+        <header>
+          <h3>Books</h3>
+        </header>
+        <nav>
+          <ul>
+            <a href="#">
+              <li>HTML 5</li>
+            </a>
+            <a href="#">
+              <li>CSS</li>
+            </a>
+            <a href="#">
+              <li>JavaScript</li>
+            </a>
+            <a href="#">
+              <li>Java</li>
+            </a>
+            <a href="#">
+              <li>Other more</li>
+            </a>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <hr />
+    <p class="copyright">copyright &copy; 2020 All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="#">Rodrigue Ndzana</a></p>
+
+  </footer>
+  <!--sticky nav to be display when the user sroll down the page-->
+  <script src="javaScript/iterative.js"></script> 
+  <script src="javaScript/courseSearchbar.js"></script> <!-- Search bar functionality js external file-->
+
+</body>
+
+</html>

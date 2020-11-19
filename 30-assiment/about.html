@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>RodEduca/aboutuspage</title>
+  <title>RodEduca/homepage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body onload="startTime(); startDate()">
+  <!--This is the tie-->
+  <!-- first nav -->
+  <div class="first_nav">
+    <div id="social_media">
+      <div class="containerfa">
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+        <i class="fa fa-google" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div class="help_email">
+      <a href="mailto:ndzanarodrigue6@gmail.com" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+        needhelp@gmail.com
+      </a>
+      <a href="#" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i>
+        084 058 5408
+      </a>
+    </div>
+    <div class="login_orregister">
+      <a href="loginPage.html" target="_blank"><i class="fa fa-user" aria-hidden="true"></i>
+        login
+      </a>
+      <a href="loginPage.html" target="_blank"><i class="fa fa-lock" aria-hidden="true"></i>
+        Register
+      </a>
+    </div>
+  </div>
+
+  <!-- second nav -->
+  <div class="mainnav_container" id="scroll">
+    <div class="heading">
+      <header>
+        <h1><i class="fa fa-book" aria-hidden="true"></i>
+          RodEduca
+        </h1>
+      </header>
+    </div>
+    <div class="second_nav">
+      <nav>
+        <ul>
+          <a href="index.html">
+            <li>Home</li>
+          </a>
+          <a href="#">
+            <li>About</li>
+          </a>
+          <a href="courses.html">
+            <li>Courses</li>
+          </a>
+          <a href="instructor.html">
+            <li>Instructors</li>
+          </a>
+          <a href="book.html">
+            <li>Books</li>
+          </a>
+          <a href="contact.html">
+            <li>Contact</li>
+          </a>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  
+  <!-- top button session -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <i class="fa fa-level-up" aria-hidden="true"></i>
+  </button>
+  <script src="javaScript/topButton.js"></script>
+
+  <!-- external about us page start -->
+  <div class="pagetitle">
+    <header>
+      <h1> About Us</h1>
+    </header>
+  </div>
+  <div class="aboutExternalPage">
+    <header>
+      <h1>our mission</h1>
+    </header>
+    <p>Achieve academic excellence in professional education at par with the leading national and international institutions.
+      Focus on practical aspects of the course material so as to make learning a meaningful and interesting experience in our intellectually stimulating campus.
+      Create an environment with people having similar goals and aspirations to be visionaries.
+      <br />
+      <br />
+      Actively encourage collaboration with industries, communities and the fellow institutions in the country and abroad.
+      Work to inculcate high moral and ethical values amongst the students to make them responsible citizens and good human beings.
+      To imbibe the winner’s attitude necessary for achieving success.
+    </p>
+  </div>
+
+  <div class="aboutExternalPage">
+    <header>
+      <h1>our vision</h1>
+    </header>
+    <p>To impart value based Vision and Mission, world class education with the purpose to contribute to the society through excellence in the emerging areas of engineering, technology, management, pharmacy and education.
+      <br />
+      <br />
+      Advanced Educational Institutions aims at grooming the professionals; who would carry forward the spirit of scientific thinking and serve as a valuable resource for industry and society. We undertake collaborative projects which offer opportunities for long-term interaction with academia and industry.</p>
+  </div>
+
+  <!-- about feedback session -->
+  <div class="container">
+    <div id="date"></div>
+    <div id="display"></div>
+    <div id="images">
+      <img id="imagescount" src="images/Rodrigue_edit.jpg" alt="Rodrigue_edit" />
+    </div>
+    <div id="content">
+      <p id="quote">"Click the Next Feedback button to view other feeback from graduate" <br />- Rodrigue Ndzana</p>
+    </div>
+    <button id="gen" onclick="genQuote()">New Feedback </button>
+  </div>
+
+  <!-- More about the instutions -->
+  <div class="aboutexternal">
+    <p>More about our company</p>
+    <h1>About us</h1>
+    <div class="descriptionexternal">
+      <div>
+        <p>The name of the website explains our philosophy of teaching Programming. We chose “Programming” because we wanted to emphasize the importance of each individual student – the “One”.
+          It is our belief that when a student is placed at the center of their future, and is understood and supported, then they will achieve far more than what they thought was possible.
+          <br />
+          <br />
+          From the moment a student enroll for a specific courses we ensure that everything they need for success in learning programming is being provided for.
+          <br />
+          <br />
+          RodEduca provides quality education, dynamic courses, innovative teaching and world-class service, while still making learning programming affordable.
+          <br />
+          <br />
+          By combining professionalism and personal relationships we have developed a new approach to learning programming.</p>
+      </div>
+
+      <div class="image1">
+        <picture>
+          <img src="images/aboutimg.jpg" alt="aboutimg" />
+        </picture>
+      </div>
+    </div>
+
+    <div class="materialNeeded">
+      <h2>What we need from you:</h2>
+      <div class="creativeIdea">
+        <i class="fa fa-lightbulb-o" aria-hidden="true"></i> <span>Creative Ideas base</span>
+        <p>We need you to be creative. Be able to use what you have to make your future bright.</p>
+      </div>
+
+      <br />
+      <br />
+      <div class="users">
+        <i class="fa fa-user-o" aria-hidden="true"></i><span>User</span>
+        <p>
+          We need you to have a proper laptop and strong connectivity in other to complete courses like web development, programming.<br />
+          In addition you must have source editor software install in your laptop. Example of software editor are notepad ++ , visual studio, atom and any more.
+
+        </p>
+      </div>
+
+      <br />
+      <br />
+      <div>
+        <i class="fa fa-graduation-cap" aria-hidden="true"></i><span style="margin-left: 1rem;">Graduate</span>
+        <p>
+          Once complete a course you can ugrade for a certificate. <br />
+          They certificate can be shared to platform like
+          linkedin, and many other platform as a prove you have done a specific courses.
+        </p>
+      </div>
+      <br />
+      <br />
+      <div>
+        <i class="fa fa-list-alt" aria-hidden="true"></i><span>Class Resume</span>
+        <p> After enrol for a specific you will have a specific date to complete it. As your process and project will be monitor by our teams members.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer session of the webpage -->
+  <footer class="footermaincontainer">
+    <div class="socialmedia">
+      <div class="stayUpdate">
+        <header>
+          <h2>Stay update</h2>
+        </header>
+        <form action="#" method="POST">
+          <input type="email" placeholder="Enter your email" />
+          <button type="button">Subscribe now </button>
+        </form>
+      </div>
+      <div class="letUsSocial">
+        <header>
+          <h2>Let us get social</h2>
+        </header>
+        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-google" aria-hidden="true"></i></a>
+      </div>
+
+    </div>
+    <div class="secondfooter">
+      <div class="aboutusfooter">
+        <header>
+          <h3>About us</h3>
+        </header>
+        <nav>
+          <ul>
+            <a href="#">
+              <li>Online Learning</li>
+            </a>
+            <a href="#">
+              <li>About us</li>
+            </a>
+            <a href="#">
+              <li>Career</li>
+            </a>
+            <a href="#">
+              <li>Become an Instructors</li>
+            </a>
+            <a href="#">
+              <li>Online Learning</li>
+            </a>
+          </ul>
+        </nav>
+      </div>
+      <div class="studyusfooter">
+        <header>
+          <h3>Study</h3>
+        </header>
+        <nav>
+          <ul>
+            <a href="#">
+              <li>Admissions policy </li>
+            </a>
+            <a href="#">
+              <li>getting Started</li>
+            </a>
+            <a href="#">
+              <li>online project</li>
+            </a>
+            <a href="#">
+              <li>tuition project</li>
+            </a>
+            <a href="#">
+              <li>contact us</li>
+            </a>
+          </ul>
+        </nav>
+      </div>
+      <div class="supportfooter">
+        <header>
+          <h3>Support</h3>
+        </header>
+        <nav>
+          <ul>
+            <a href="#">
+              <li>support</li>
+            </a>
+            <a href="#">
+              <li>contact us</li>
+            </a>
+            <a href="#">
+              <li>system requirement</li>
+            </a>
+            <a href="#">
+              <li>term and conditon</li>
+            </a>
+            <a href="#">
+              <li>graduate feeback</li>
+            </a>
+          </ul>
+        </nav>
+      </div>
+      <div class="bookusfooter">
+        <header>
+          <h3>Books</h3>
+        </header>
+        <nav>
+          <ul>
+            <a href="#">
+              <li>HTML 5</li>
+            </a>
+            <a href="#">
+              <li>CSS</li>
+            </a>
+            <a href="#">
+              <li>JavaScript</li>
+            </a>
+            <a href="#">
+              <li>Java</li>
+            </a>
+            <a href="#">
+              <li>Other more</li>
+            </a>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <hr />
+    <p class="copyright">copyright &copy; 2020 All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="#">Rodrigue Ndzana</a></p>
+  </footer>
+
+  <script src="javaScript/iterative.js"></script>
+  <script src="javaScript/aboutus.js"></script>
+</body>
+
+</html>
